@@ -1,3 +1,4 @@
+
 # Welcome to Titanic Analysis repository 🌊🛳️
 
 ## About 📝
@@ -12,7 +13,7 @@ The Mini-Project has been broken down into 9 different portions which should be 
  2. [**Exploratory Data Analysis on Categorical Variables**](https://github.com/Mystic1611/SC1015-Titanic-Analysis/blob/master/2.%20data-eda-categorical.ipynb) 🔍
  3. [**Exploratory Data Analysis on Numerical Variables**](https://github.com/Mystic1611/SC1015-Titanic-Analysis/blob/master/3.%20data-eda-numerical.ipynb) 🔎
  4. [**Decision Tree**](https://github.com/Mystic1611/SC1015-Titanic-Analysis/blob/master/4.%20machine-learning-decision-tree.ipynb) 🌲
- 5. [**Data Upsampling**](https://github.com/Mystic1611/SC1015-Titanic-Analysis/blob/master/5.%20machine-learning-upscaling.ipynb) ⬆️
+ 5. [**Data Upsampling**](https://github.com/Mystic1611/SC1015-Titanic-Analysis/blob/master/5.%20machine-learning-upsampling.ipynb) ⬆️
  6. [**Random Forest**](https://github.com/Mystic1611/SC1015-Titanic-Analysis/blob/master/6.%20machine-learning-random-forest.ipynb) 🎲🌲
  7. [**Support Vector Machine**](https://github.com/Mystic1611/SC1015-Titanic-Analysis/blob/master/7.%20machine-learning-svm.ipynb) 📈
  8. [**Attempt at Removing Outliers to Improve Models**](https://github.com/Mystic1611/SC1015-Titanic-Analysis/blob/master/8.%20machine-learning-removing-outliers.ipynb)  🗑️ 
@@ -20,7 +21,7 @@ The Mini-Project has been broken down into 9 different portions which should be 
 
  ## Contributors 👪
  - Lim Haozheng [@aaron-limm](https://github.com/aaron-limm)
- > **Contributions**: Data extraction, Exploratory Data Analysis, Decision Tree, Data Upscaling
+ > **Contributions**: Data extraction, Exploratory Data Analysis, Decision Tree, Data Upsampling
  - Leong Wei Hong [@weihonglwh](https://github.com/weihonglwh)
  > **Contributions**: Data Cleaning, Exploratory Data Analysis, Support Vector Machine
  - Lee Kian Han, Nicholas [@n-nicholas-s](https://github.com/n-nicholas-s) 
@@ -84,20 +85,20 @@ The Mini-Project has been broken down into 9 different portions which should be 
 - Plot results (accuracy, TPR, TNR, FPR, FNR) on confusion matrix for both train and test
 - Export OneHotEncoded machine learning data to [`machine-learning-data-ohe.csv`](https://github.com/weihonglwh/SC1015-Titanic-Analysis/blob/master/datasets/machine-learning-data-ohe.csv)
 
-## Data Upscaling ⬆️
+## Data Upsampling ⬆️
 
 ### Procedures 📜
-- Upscale the amount of data entries to balance the number of entries with survivors and casualties.
+- Upsample the amount of data entries to balance the number of entries with survivors and casualties.
 > **Reason**: To reduce FNR since most entries are casualties.
-- Re-create decision tree model with upscaled data
+- Re-create decision tree model with upsampled data
 - Plot results (accuracy, TPR, TNR, FPR, FNR) on confusion matrix for both train and test
-- Export OneHotEncoded and upscaled machine learning data to [`machine-learning-data-ohe-upscaled.csv`](https://github.com/weihonglwh/SC1015-Titanic-Analysis/blob/master/datasets/machine-learning-data-ohe-upscaled.csv)
-> **Findings**: Upscaling the data indeed reduced the high FNR previously.
+- Export OneHotEncoded and upsampled machine learning data to [`machine-learning-data-ohe-upsampled.csv`](https://github.com/weihonglwh/SC1015-Titanic-Analysis/blob/master/datasets/machine-learning-data-ohe-upsampled.csv)
+> **Findings**: Upsampling the data indeed reduced the high FNR previously.
 
 ## Random Forest 🎲🌲
 
 ### Procedures 📜
-- Create model from OneHotEncoded and upscale machine learning data using default settings of Random Forest
+- Create model from OneHotEncoded and upsampled machine learning data using default settings of Random Forest
 - Use `GridSearchCV` from `sklearn` module to perform hyperparameter tuning and find best setting for Random Forest
 - Plot results (accuracy, TPR, TNR, FPR, FNR) on confusion matrix for both train and test
 - Compare Random Forest model against Decision Tree model
@@ -106,7 +107,7 @@ The Mini-Project has been broken down into 9 different portions which should be 
 ## Support Vector Machine (SVM) 📈
 
 ### Procedures 📜
-- Create model from OneHotEncoded and upscale machine learning data using default settings of SVM
+- Create model from OneHotEncoded and upssampled machine learning data using default settings of SVM
 - Use `GridSearchCV` from `sklearn` module to perform hyperparameter tuning and find best setting for SVM
 - Plot results (accuracy, TPR, TNR, FPR, FNR) on confusion matrix for both train and test
 - Compare SVM model against Random Forest model
@@ -115,8 +116,8 @@ The Mini-Project has been broken down into 9 different portions which should be 
 ## Attempt at Removing Outliers to Improve Models 🗑️
 
 ### Procedures 📜
-- Identify and remove outliers from OneHotEncoded and upscale machine learning data
-- Export dataset without outliers to [`machine-learning-data-ohe-upscaled-no-outliers.csv`](https://github.com/weihonglwh/SC1015-Titanic-Analysis/blob/master/datasets/machine-learning-data-ohe-upscaled-no-outliers.csv)
+- Identify and remove outliers from OneHotEncoded and upsampled machine learning data
+- Export dataset without outliers to [`machine-learning-data-ohe-upsampled-no-outliers.csv`](https://github.com/weihonglwh/SC1015-Titanic-Analysis/blob/master/datasets/machine-learning-data-ohe-upsampled-no-outliers.csv)
 - Create models on all 3 machine learning algorithms using the new dataset
 - Compare difference before and removing outliers
 > **Findings**: Removing outliers degraded the quality of all 3 models, which could possibly be because around 20% of the dataset was removed, resulting in a lack of data to build an accurate model.
@@ -137,7 +138,7 @@ The Mini-Project has been broken down into 9 different portions which should be 
 
 ## Takeaways from Project🛍️
 
-- Usage of upscaling to reduce bias in decision
+- Usage of upsampling to reduce bias in decision
 - Random Forest and SVM
 - Hyperparameter Tuning
 - Usage of GitHub

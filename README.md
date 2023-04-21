@@ -106,7 +106,7 @@ The Mini-Project has been broken down into 9 different portions which should be 
 ## Support Vector Machine (SVM) 📈
 
 ### Procedures 📜
-- Create model from OneHotEncoded and upscale machine learning data using default settings of SVM Model
+- Create model from OneHotEncoded and upscale machine learning data using default settings of SVM
 - Use `GridSearchCV` from `sklearn` module to perform hyperparameter tuning and find best setting for SVM
 - Plot results (accuracy, TPR, TNR, FPR, FNR) on confusion matrix for both train and test
 - Compare SVM model against Random Forest model

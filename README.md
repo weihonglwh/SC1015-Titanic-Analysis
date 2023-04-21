@@ -143,4 +143,11 @@ The Mini-Project has been broken down into 9 different portions which should be 
 - Hyperparameter Tuning
 - Usage of GitHub
 - Importance of documentation of changes
- 
+
+## References
+
+https://www.kaggle.com/datasets/yasserh/titanic-dataset
+https://scikit-learn.org/stable/modules/svm.html
+https://scikit-learn.org/stable/modules/generated/sklearn.utils.resample.html
+https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
+https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.GridSearchCV.html

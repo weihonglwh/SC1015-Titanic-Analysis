@@ -148,6 +148,8 @@ The Mini-Project has been broken down into 9 different portions which should be 
 
 https://www.kaggle.com/datasets/yasserh/titanic-dataset
 
+https://towardsdatascience.com/support-vector-machine-introduction-to-machine-learning-algorithms-934a444fca47
+
 https://scikit-learn.org/stable/modules/svm.html
 
 https://scikit-learn.org/stable/modules/generated/sklearn.utils.resample.html

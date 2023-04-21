@@ -12,7 +12,7 @@ The Mini-Project has been broken down into 9 different portions which should be 
  2. [**Exploratory Data Analysis on Categorical Variables**](https://github.com/Mystic1611/SC1015-Titanic-Analysis/blob/master/2.%20data-eda-categorical.ipynb) 🔍
  3. [**Exploratory Data Analysis on Numerical Variables**](https://github.com/Mystic1611/SC1015-Titanic-Analysis/blob/master/3.%20data-eda-numerical.ipynb) 🔎
  4. [**Decision Tree**](https://github.com/Mystic1611/SC1015-Titanic-Analysis/blob/master/4.%20machine-learning-decision-tree.ipynb) 🌲
- 5. [**Data Upscaling**](https://github.com/Mystic1611/SC1015-Titanic-Analysis/blob/master/5.%20machine-learning-upscaling.ipynb) ⬆️
+ 5. [**Data Upsampling**](https://github.com/Mystic1611/SC1015-Titanic-Analysis/blob/master/5.%20machine-learning-upscaling.ipynb) ⬆️
  6. [**Random Forest**](https://github.com/Mystic1611/SC1015-Titanic-Analysis/blob/master/6.%20machine-learning-random-forest.ipynb) 🎲🌲
  7. [**Support Vector Machine**](https://github.com/Mystic1611/SC1015-Titanic-Analysis/blob/master/7.%20machine-learning-svm.ipynb) 📈
  8. [**Attempt at Removing Outliers to Improve Models**](https://github.com/Mystic1611/SC1015-Titanic-Analysis/blob/master/8.%20machine-learning-removing-outliers.ipynb)  🗑️ 

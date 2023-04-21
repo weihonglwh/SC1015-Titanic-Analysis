@@ -92,6 +92,7 @@ The Mini-Project has been broken down into 9 different portions which should be 
 - Re-create decision tree model with upscaled data
 - Plot results (accuracy, TPR, TNR, FPR, FNR) on confusion matrix for both train and test
 - Export OneHotEncoded and upscaled machine learning data to [`machine-learning-data-ohe-upscaled.csv`](https://github.com/weihonglwh/SC1015-Titanic-Analysis/blob/master/datasets/machine-learning-data-ohe-upscaled.csv)
+> **Findings**: Upscaling the data indeed reduced the high FNR previously.
 
 ## Random Forest 🎲🌲
 

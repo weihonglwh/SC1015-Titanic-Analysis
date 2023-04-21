@@ -90,6 +90,7 @@ The Mini-Project has been broken down into 9 different portions which should be 
 - Upscale the amount of data entries to balance the number of entries with survivors and casualties.
 > **Reason**: To reduce FNR since most entries are casualties.
 - Re-create decision tree model with upscaled data
+- Plot results (accuracy, TPR, TNR, FPR, FNR) on confusion matrix for both train and test
 - Export OneHotEncoded and upscaled machine learning data to [`machine-learning-data-ohe-upscaled.csv`](https://github.com/weihonglwh/SC1015-Titanic-Analysis/blob/master/datasets/machine-learning-data-ohe-upscaled.csv)
 
 ## Random Forest 🎲🌲
@@ -97,6 +98,7 @@ The Mini-Project has been broken down into 9 different portions which should be 
 ### Procedures 📜
 - Create model from OneHotEncoded and upscale machine learning data using default settings of Random Forest
 - Use `GridSearchCV` from `sklearn` module to perform hyperparameter tuning and find best setting for Random Forest
+- Plot results (accuracy, TPR, TNR, FPR, FNR) on confusion matrix for both train and test
 - Compare Random Forest model against Decision Tree model
 > **Findings**: Random Forest yields a better model than Decision Tree.
 
@@ -105,6 +107,7 @@ The Mini-Project has been broken down into 9 different portions which should be 
 ### Procedures 📜
 - Create model from OneHotEncoded and upscale machine learning data using default settings of SVM Model
 - Use `GridSearchCV` from `sklearn` module to perform hyperparameter tuning and find best setting for SVM
+- Plot results (accuracy, TPR, TNR, FPR, FNR) on confusion matrix for both train and test
 - Compare SVM model against Random Forest model
 > **Findings**: SVM yields a better model than Random Forest and is the best among the 3 models used in this case.
 

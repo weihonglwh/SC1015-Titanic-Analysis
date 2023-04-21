@@ -20,11 +20,11 @@ The Mini-Project has been broken down into 9 different portions which should be 
 
  ## Contributors 👪
  - Lim Haozheng [@aaron-limm](https://github.com/aaron-limm)
- > Contributions: Data extraction, Exploratory Data Analysis, Decision Tree, Data Upscaling
+ > **Contributions**: Data extraction, Exploratory Data Analysis, Decision Tree, Data Upscaling
  - Leong Wei Hong [@weihonglwh](https://github.com/weihonglwh)
- > Contributions: Data Cleaning, Exploratory Data Analysis, Support Vector Machine
+ > **Contributions**: Data Cleaning, Exploratory Data Analysis, Support Vector Machine
  - Lee Kian Han, Nicholas [@n-nicholas-s](https://github.com/n-nicholas-s) 
- > Contributions: Exploratory Data Analysis, Random Forest, Removal of Outliers
+ > **Contributions**: Exploratory Data Analysis, Random Forest, Removal of Outliers
 
 ## Problem Statement ❓
 

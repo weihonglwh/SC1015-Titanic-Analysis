@@ -136,7 +136,7 @@ The Mini-Project has been broken down into 9 different portions which should be 
 | Not all machine learning algorithms explored   | Explore all machine learning algorithms like neural network as they might produce a better model |
 | Relatively smaller dataset | Use a larger dataset |
 
-## Takeaways from Project🛍️
+## Takeaways from Project 🛍️
 
 - Usage of upsampling to reduce bias in decision
 - Random Forest and SVM
